@@ -64,10 +64,12 @@ footer {
 footer img {
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 footer p {
   color: #f4ce14;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -76,6 +78,7 @@ footer ul {
 }
 
 footer a {
+  font-size: 17px;
   color: white;
   text-decoration: none;
   font-weight: bold;
