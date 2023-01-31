@@ -9,32 +9,31 @@ body {
 
 /* Header */
 header {
-  background-color: #edefee;
 }
 
 /* Navbar */
 nav {
   /* margin-left: 230px; */
-}
-
-.topHeader {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  background-color: #edefee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navUL {
   list-style: none;
-  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 0;
 }
 
 .navUL li {
   display: inline;
-  padding-left: 53px;
+  padding-left: 65px;
 }
 
 .navUL li a {
@@ -45,8 +44,109 @@ nav {
 }
 
 /* Main */
+main {
+}
 h1 {
   color: #f4ce14;
+}
+
+/* Hero */
+.hero-container {
+  background-color: #495e57;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  place-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.hero-section1 {
+}
+
+.hero-section2 {
+}
+
+.hero h2 {
+  color: white;
+}
+
+.hero-section1 p {
+  color: white;
+  margin-right: 400px;
+}
+
+.hero button {
+  background-color: #f4ce14;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.hero img {
+  border-radius: 20px;
+}
+
+/*Specials*/
+.specials {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.specials-top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.specials-top h1 {
+  color: black;
+}
+
+.specials-top button {
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.specials-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.specials-card {
+  width: 250px;
+}
+
+.specials-card-content {
+  display: grid;
+  grid-template-rows: auto;
+  background-color: #edefee;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.specials-card-content-top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.specials-card-content-top .meal {
+  font-weight: bold;
+}
+
+.specials-card-content-top .price {
+  font-weight: bold;
+  color: #f4ce14;
+}
+
+.specials-card-content .orderDelivery {
+  font-weight: bold;
+  color: black;
 }
 
 /* Footer */
@@ -82,4 +182,11 @@ footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContent {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }

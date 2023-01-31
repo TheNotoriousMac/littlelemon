@@ -5,6 +5,11 @@ const Nav = () => {
     <nav>
       <ul className="navUL">
         <li>
+          <a href="#Home">
+            <img src="./assets/Logo.svg" alt="logo"></img>
+          </a>
+        </li>
+        <li>
           <a href="#Home">Home</a>
         </li>
         <li>
