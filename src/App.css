@@ -4,7 +4,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 0.2fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 /* Header */
@@ -94,6 +94,8 @@ h1 {
 .specials {
   margin-left: 150px;
   margin-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .specials-top {
   display: grid;
@@ -147,6 +149,56 @@ h1 {
 .specials-card-content .orderDelivery {
   font-weight: bold;
   color: black;
+}
+
+/* Testimonials */
+.testimonials-container {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.testimonials-cards {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.testimonials-card {
+  background-color: #edefee;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 200px;
+  text-align: left;
+}
+
+/* About */
+.about-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  place-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.about-right {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.about-img1 {
+  border-radius: 20px;
+}
+
+.about-img2 {
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 /* Footer */
