@@ -257,6 +257,14 @@ footer a {
   font-weight: bold;
 }
 
+/*Booking Form */
+form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+  grid-template-rows: auto;
+}
+
 @media screen and (max-width: 768px) {
   .footerContent {
     display: grid;
